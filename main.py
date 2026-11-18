@@ -39,29 +39,29 @@ def draw_lost():
     WIN.blit(lost_label, (WIDTH/2 - lost_label.get_width()/2, 350))
 
 
-# Loading Assets =================================================
+# Loading pics =================================================
 RED_SPACE_SHIP = pygame.image.load(
-    os.path.join("assets", "pixel_ship_red_small.png"))
+    os.path.join("pic", "pixel_ship_red_small.png"))
 GREEN_SPACE_SHIP = pygame.image.load(
-    os.path.join("assets", "pixel_ship_green_small.png"))
+    os.path.join("pic", "pixel_ship_green_small.png"))
 BLUE_SPACE_SHIP = pygame.image.load(
-    os.path.join("assets", "pixel_ship_blue_small.png"))
+    os.path.join("pic", "pixel_ship_blue_small.png"))
 
 # Player Ship
 YELLOW_SPACE_SHIP = pygame.image.load(
-    os.path.join("assets", "pixel_ship_yellow.png"))
+    os.path.join("pic", "pixel_ship_yellow.png"))
 
 # Lasers
-RED_LASER = pygame.image.load(os.path.join("assets", "pixel_laser_red.png"))
+RED_LASER = pygame.image.load(os.path.join("pic", "pixel_laser_red.png"))
 GREEN_LASER = pygame.image.load(
-    os.path.join("assets", "pixel_laser_green.png"))
-BLUE_LASER = pygame.image.load(os.path.join("assets", "pixel_laser_blue.png"))
+    os.path.join("pic", "pixel_laser_green.png"))
+BLUE_LASER = pygame.image.load(os.path.join("pic", "pixel_laser_blue.png"))
 YELLOW_LASER = pygame.image.load(
-    os.path.join("assets", "pixel_laser_yellow.png"))
+    os.path.join("pic", "pixel_laser_yellow.png"))
 
 # Background
 BG = pygame.transform.scale(pygame.image.load(
-    os.path.join("assets", "background-black.png")), (WIDTH, HEIGHT))
+    os.path.join("pic", "background-black.png")), (WIDTH, HEIGHT))
 
 
 # Ship Classes ========================================================
